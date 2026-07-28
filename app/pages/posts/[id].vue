@@ -6,7 +6,5 @@ console.log(route.params.id)
 </script>
 
 <template>
-<div>
-    Posts Page with id : {{ route.params.id }}
-</div>
+  <div>Posts Page with id : {{ route.params.id }}</div>
 </template>

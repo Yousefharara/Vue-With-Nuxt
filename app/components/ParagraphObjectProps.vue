@@ -1,10 +1,10 @@
 <script setup lang="ts">
 interface IUser {
-  name: string;
-  age: number;
+  name: string
+  age: number
 }
 
-defineProps<{ user: IUser }>();
+defineProps<{ user: IUser }>()
 </script>
 
 <template>
