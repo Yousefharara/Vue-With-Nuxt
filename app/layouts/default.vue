@@ -1,21 +1,16 @@
 <script setup lang="ts">
-import Footer from '~/components/organisms/Footer.vue';
-import Navbar from '~/components/organisms/Navbar.vue';
-
+import Footer from '~/components/organisms/Footer.vue'
+import Navbar from '~/components/organisms/Navbar.vue'
 </script>
 
 <template>
-
-<div>
-
+  <div>
     <Navbar />
 
     <main>
-        <slot />
+      <slot />
     </main>
 
     <Footer />
-
-</div>
-
+  </div>
 </template>

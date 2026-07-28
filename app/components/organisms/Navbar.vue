@@ -7,8 +7,9 @@ const changeTemplate = (template: 'template-one' | 'template-two') => {
 </script>
 
 <template>
-  <nav>
+  <nav class="container-sec">
     <ul class="flex gap-3 items-center justify-center my-3">
+      <li><NuxtLink to="/">Home</NuxtLink></li>
       <li><NuxtLink to="/about">About</NuxtLink></li>
       <li><NuxtLink to="/posts/1">Post 1</NuxtLink></li>
       <li><NuxtLink to="/posts/2">Post 2</NuxtLink></li>
