@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import Computed from '~/components/Computed.vue';
+
 const count = ref(1) // ref is auto-imported
 const parson = reactive({
   name: "Yousef Harara",
@@ -39,5 +41,6 @@ const increment = () => {
       <h2>Parson Name: {{ parson.name }}</h2>
       <h2>Parson Job Title : {{ parson.jobTitle }}</h2>
     </article>
+    <Computed />
   </div>
 </template>
