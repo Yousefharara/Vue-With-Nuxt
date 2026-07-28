@@ -18,9 +18,6 @@ const increment = () => {
 </script>
 <template>
   <div class="min-h-screen flex flex-col items-center justify-center bg-rose-100">
-    <header>
-      <Navbar />
-    </header>
     <h1 class="text-4xl font-bold text-green-600">Nuxt + Tailwind CSS 🚀</h1>
     <BaseButton message="Message" />
     <ParagraphObjectProps
